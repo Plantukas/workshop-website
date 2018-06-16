@@ -1,0 +1,29 @@
+﻿$amatic: 'Amatic SC', sans-serif;
+$east-doko: 'East Sea Dokdo', sans-serif;
+$primary-color: black;
+$secondary-color: white;
+$third-color: #a69150;
+$fourth-color: #dbd1b4 ;
+$fifth-color: dimgray;
+$sixth-color: lightgray;
+
+nav {
+    background-color: rgba(69, 69, 69, 0.7);
+    z-index: 9999999999999999;
+
+    ul {
+    }
+
+    form {
+    }
+}
+
+header {
+    background-color: rgba(69, 69, 69, 0.7);
+    h1 {
+        font-family: $amatic;
+        font-weight: 900;
+        font-size: 80px;
+        text-align: center;
+    }
+}
