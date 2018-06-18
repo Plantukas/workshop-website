@@ -1,0 +1,52 @@
+﻿$amatic: 'Amatic SC', sans-serif;
+$east-doko: 'East Sea Dokdo', sans-serif;
+$primary-color: black;
+$secondary-color: white;
+$third-color: #a69150;
+$fourth-color: #dbd1b4 ;
+$fifth-color: dimgray;
+$sixth-color: lightgray;
+
+nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999999999999999;
+
+    ul {
+    }
+
+    form {
+        .search-icon {
+            background-color: rgba(255, 255, 255, 0.7);
+            color: $primary-color;
+            border-color: $sixth-color;
+            transition: 0.2s ease-in;
+
+            &:hover {
+                background-color: $sixth-color;
+                border-color: $sixth-color;
+                outline-color: $sixth-color;
+                color: $primary-color;
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+header {
+    background-color: rgba(255, 255, 255, 1);
+    height: 400px;
+
+    h1 {
+        font-family: $amatic;
+        font-weight: 900;
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .carousel-inner {
+        height: 650px;
+    }
+}

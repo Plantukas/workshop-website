@@ -1,0 +1,27 @@
+﻿nav {
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 9999999999999999; }
+  nav form .search-icon {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border-color: lightgray;
+    transition: 0.2s ease-in; }
+    nav form .search-icon:hover {
+      background-color: lightgray;
+      border-color: lightgray;
+      outline-color: lightgray;
+      color: black; }
+    nav form .search-icon:focus {
+      box-shadow: none; }
+
+header {
+  background-color: white;
+  height: 400px; }
+  header h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center; }
+  header .carousel-inner {
+    height: 650px; }
+
